@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <title>Login | Accel Sports</title>
+</head>
+<body>
+  <header class="head as-header flex-justify-sp-bw">
+    <a href="/index.html" class="logo flex-center"
+    >Accel Sports</a>
+    <div class="search-bar">
+      <input type="text" class="search-bar__input" placeholder="Search...">
+      <button class="search-bar__btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <nav class="nav">
+      <ul class="nav_ul flex-justify-sp-bw">
+        <li class="nav_li"><a href="/pages/login">Login</a></li>
+        <li class="nav_li"><a href="/pages/wishlist"><i class="fa-regular fa-heart"></i></a></li>
+        <li class="nav_li">
+          <a href="/pages/cart"><i class=" fas fa-regular fa-cart-shopping"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="as-login__main flex-center">
+    <form class="as-login__form">
+      <h3 class="as-login__h3">Login</h3>
+      <div class="as-login__input-wrapper">
+        <label for="email" class="as-login__label">Email</label>
+        <input type="email" id="email" class="as-login__input" required>
+      </div>
+      <div class="as-login__input-wrapper">
+        <label for="password" class="as-login__label">Password</label>
+        <input type="password" id="password" class="as-login__input" required>
+      </div>
+      <div class=" as-login__wrapper flex-justify-sp-bw">
+        <div class="as-login__cb-wrapper">
+          <input type="checkbox" class="as-login__cb" id="as-login__cb">
+          <label for="as-login__cb" class="as-login__cb-label">Remember me</label>
+        </div>
+        <a href="#" class="as-login__a">Forgot your password</a>
+      </div>
+      <div class="as-login__btn-wrapper">
+        <button class="btn btn-primary as-login__btn">Login</button>
+      </div>
+      <div class="as-login__a"><a href="/pages/signup">Create New Account <i class="fa-solid fa-angle-right"></i></a></div>
+    </form>
+  </main>
+  <footer class="footer flex-justify-sp-bw">
+    <address class="footer__address">
+      <h4 class="footer__h2">Registered Address</h4>
+      <p class="footer__P">Street: Plot No 233, Brodipet, Guntur</p>
+      <p class="footer__P">State: Andhra Pradesh</p>
+      <p class="footer__P">Zip code: 122001</p>
+      <p class="footer__P">Country: India</p>
+    </address>
+    <div>
+      <span>©AccelSports. All rights reserved</span>
+    </div>
+    <div class="footer__social">
+      <span>Keep in touch</span>
+      <ul class="footer_ul flex-justify-sp-bw ul-pad-0">
+        <li class="footer_li">
+          <a href="https://github.com/kalyandindu/Accel-UI"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="footer_li">
+          <a href="https://www.linkedin.com/in/pavan-dindu-a839b6122/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="footer_li">
+          <a href="https://twitter.com/Pavandindu"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
