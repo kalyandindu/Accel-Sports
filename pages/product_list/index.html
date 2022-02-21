@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <title>Products | Accel Sports</title>
+</head>
+<body>
+  <header class="head as-header flex-justify-sp-bw">
+    <a href="/index.html" class="logo flex-center"
+    >Accel Sports</a>
+    <div class="search-bar">
+      <input type="text" class="search-bar__input" placeholder="Search...">
+      <button class="search-bar__btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <nav class="nav">
+      <ul class="nav_ul flex-justify-sp-bw">
+        <li class="nav_li"><a href="#">Login</a></li>
+        <li class="nav_li"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+        <li class="nav_li">
+          <a href="#"><i class=" fas fa-regular fa-cart-shopping"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="as-product__main d-flex">
+    <aside class="as-aside flex-column">
+      <header class="as-aside__header flex-justify-sp-bw">
+        <h3 class="as-aside__h3">Filters</h3>
+        <button class="as-aside__btn ">Clear</button>
+      </header>
+      <div class="as-filter__price">
+        <h3 class="as-price__h3">Price</h3>
+        <div class="as-price__range flex-justify-sp-bw">
+          <span>0</span>
+          <span>1000</span>
+          <span>10000</span>
+        </div>
+        <input type="range" class="as-price__slider" min="0" max="10000">
+      </div>
+
+      <div class="as-filter__catag">
+        <h3 class="as-catag__h3">Catagory</h3>
+        <div class="as-catag__container">
+          <input type="checkbox" class="as-catag__checkbox" id="as-catag__checkbox">
+          <label for="as-catag__checkbox">Cricket</label>
+        </div>
+        <div class="as-catag__container">
+          <input type="checkbox" class="as-catag__checkbox" id="as-catag__checkbox">
+          <label for="as-catag__checkbox">Table Tennis</label>
+        </div>
+        <div class="as-catag__container">
+          <input type="checkbox" class="as-catag__checkbox" id="as-catag__checkbox">
+          <label for="as-catag__checkbox">Badminton</label>
+        </div>
+        <div class="as-catag__container">
+          <input type="checkbox" class="as-catag__checkbox" id="as-catag__checkbox">
+          <label for="as-catag__checkbox">Hockey</label>
+        </div>
+        <div class="as-catag__container">
+          <input type="checkbox" class="as-catag__checkbox" id="as-catag__checkbox">
+          <label for="as-catag__checkbox">Tennis</label>
+        </div>
+      </div>
+
+      <div class="as-filter__rating">
+        <h3 class="as-rating__h3">Catagory</h3>
+        <div class="as-rating__container">
+          <input type="radio" class="as-rating__radio" id="as-rating__radio">
+          <label for="as-rating__radio">Cricket</label>
+        </div>
+        <div class="as-rating__container">
+          <input type="radio" class="as-rating__radio" id="as-rating__radio">
+          <label for="as-rating__radio">Table Tennis</label>
+        </div>
+        <div class="as-rating__container">
+          <input type="radio" class="as-rating__radio" id="as-rating__radio">
+          <label for="as-rating__radio">Badminton</label>
+        </div>
+        <div class="as-rating__container">
+          <input type="radio" class="as-rating__radio" id="as-rating__radio">
+          <label for="as-rating__radio">Hockey</label>
+        </div>
+        <div class="as-rating__container">
+          <input type="radio" class="as-rating__radio" id="as-rating__radio">
+          <label for="as-rating__radio">Tennis</label>
+        </div>
+      </div>
+
+    </aside>
+
+    <div class="as-product__content">
+      <header class="as-product__header">
+        <h3 class="as-product__h3">Showing all products</h3>
+        <small>(Showing 20 products)</small>
+      </header>
+      <div href="#" class="as-card__container d-flex">
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Cricket bat 2.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Gray-Nicolls</p>
+            <p class="card-desc">Adult tennis ball bat</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:500</div>
+            <div class="card__price--original"><strike>1200</strike></div>
+            <div class="card__price--offer">60% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/TT_bat_1.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Stag</p>
+            <p class="card-desc">Beginner TT racket</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:400</div>
+            <div class="card__price--original"><strike>1000</strike></div>
+            <div class="card__price--offer">50% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Badminton_racket_1.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Yonex</p>
+            <p class="card-desc">Astrox 88D Badminton Racket</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:2000</div>
+            <div class="card__price--original"><strike>5500</strike></div>
+            <div class="card__price--offer">65% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Hockey_stick_1.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Alfa</p>
+            <p class="card-desc">Hockey Sticks AX - 2 Junior</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:1900</div>
+            <div class="card__price--original"><strike>5000</strike></div>
+            <div class="card__price--offer">60% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+        
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Tennis_racket_1.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Yonex</p>
+            <p class="card-desc">Tennis Racket TR100 - Black</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:3000</div>
+            <div class="card__price--original"><strike>7000</strike></div>
+            <div class="card__price--offer">65% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a> 
+
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Cricket bat 1.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Gray-Nicolls</p>
+            <p class="card-desc">Adult tennis ball bat</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:500</div>
+            <div class="card__price--original"><strike>1200</strike></div>
+            <div class="card__price--offer">60% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/TT_bat_2.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Stag</p>
+            <p class="card-desc">Beginner TT racket</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:400</div>
+            <div class="card__price--original"><strike>1000</strike></div>
+            <div class="card__price--offer">50% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+        <a class="card flex-column as-product__card">
+          <div class="card__img as-product__img">
+            <img src="/Assets/Badminton_racket_2.jpeg" alt="Sofa" />
+          </div>
+          <div class="card__info pad-8-16">
+            <p class="card-title">Yonex</p>
+            <p class="card-desc">Astrox 88D Badminton Racket</p>
+          </div>
+          <div class="card__price pad-8-16 d-flex">
+            <div class="card__price--final">Rs:2000</div>
+            <div class="card__price--original"><strike>5500</strike></div>
+            <div class="card__price--offer">65% off</div>
+          </div>
+          <div class="card__footer pad-8-16">
+            <div class="card-footer__div flex-column">
+              <button class="btn btn-primary btn-wrapper">
+                <div class="btn_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="btn_content">Add to Cart</div>
+              </button>
+              <button class="btn btn-outline btn-wrapper">
+                <div class="btn_icon"><i class="fa-solid fa-heart"></i></div>
+                <div class="btn_content">Wishlist</div>
+              </button>
+            </div>
+          </div>
+          <div class="as-card__wishlist">
+            <i class="fa-brands fa-gratipay"></i>
+          </div>
+        </a>
+
+      </div>
+      
+    </div>
+
+  </main>
+  <footer class="footer flex-justify-sp-bw">
+    <address class="footer__address">
+      <h4 class="footer__h2">Registered Address</h4>
+      <p class="footer__P">Street: Plot No 233, Brodipet, Guntur</p>
+      <p class="footer__P">State: Andhra Pradesh</p>
+      <p class="footer__P">Zip code: 122001</p>
+      <p class="footer__P">Country: India</p>
+    </address>
+    <div>
+      <span>©AccelSports. All rights reserved</span>
+    </div>
+    <div class="footer__social">
+      <span>Keep in touch</span>
+      <ul class="footer_ul flex-justify-sp-bw ul-pad-0">
+        <li class="footer_li">
+          <a href="https://github.com/kalyandindu/Accel-UI"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="footer_li">
+          <a href="https://www.linkedin.com/in/pavan-dindu-a839b6122/"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="footer_li">
+          <a href="https://twitter.com/Pavandindu"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
