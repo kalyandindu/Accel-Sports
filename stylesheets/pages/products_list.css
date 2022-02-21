@@ -6,7 +6,7 @@
 .as-aside > * {
   padding: var(--sp-xsm) var(--sp-sm) var(--sp-sm) var(--sp-md);
 }
-.as-aside__button {
+.as-aside__btn {
   background-color: transparent;
   border: none;
   text-decoration: underline;
@@ -28,42 +28,42 @@
 .as-rating__radio {
   margin-right: var(--sp-xsm);
 }
-.as-prod__content {
+.as-product__content {
   flex: 1;
   padding: var(--sp-md);
 }
-.as-prod__header {
+.as-product__header {
   display: flex;
   align-items: center;
   gap: var(--sp-xsm);
   margin-bottom: var(--sp-sm);
 }
-.as-prod__card {
+.as-product__card {
   width: 14rem;
   height: 25rem;
 }
-.as-prod__card:hover {
+.as-product__card:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
-.as-prod__img {
+.as-product__img {
   max-height: 50%;
 }
-.as-prod__card img {
+.as-product__card img {
   max-width: 100%;
   height: 100%;
   margin: auto;
 }
-.as-prod__card .card-footer__div {
+.as-product__card .card-footer__div {
   gap: var(--sp-xsm);
 }
-.as-prod__card .btn-wrapper {
+.as-product__card .btn-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.as-prod__content .as-card__container {
+.as-product__content .as-card__container {
   padding: 0;
   flex-wrap: wrap;
   gap: var(--sp-md);
