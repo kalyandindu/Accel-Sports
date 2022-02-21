@@ -47,6 +47,7 @@
   transform: scale(1.05);
 }
 .as-product__img {
+  padding: var(--sp-xsm);
   max-height: 50%;
 }
 .as-product__card img {
