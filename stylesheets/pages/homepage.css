@@ -1,0 +1,75 @@
+:root {
+  --primary-rgb: 13, 148, 136;
+}
+.as-advert {
+  position: relative;
+  background-image: url("/assets/Sport_gear.jpg");
+  min-height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+  margin-bottom: var(--sp-sm);
+}
+.as-advert__text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(var(--gray-rgb-900), 0.5);
+  gap: var(--sp-sm);
+}
+.as-card__container {
+  padding: var(--sp-md);
+  gap: var(--sp-sm);
+}
+.as__h2 {
+  padding: var(--sp-sm);
+}
+.catagory__card {
+  width: 15rem;
+  height: 15rem;
+}
+.top-deal__card {
+  width: 15rem;
+  height: 20rem;
+  gap: var(--sp-sm);
+  text-align: center;
+}
+.trending__card {
+  width: 15rem;
+  height: 22rem;
+  gap: var(--sp-sm);
+}
+.card-explore {
+  color: var(--gray);
+  font-size: var(--fs-xsm);
+}
+.top-deal__card:hover,
+.trending__card:hover,
+.catagory__card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.catagory__card-img {
+  height: 100%;
+}
+.catagory__card img,
+.top-deal__card img,
+.trending__card img {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.as-card__overlay {
+  background-color: rgba(var(--primary-rgb), 0.5);
+}
+.as-card__overlay-text {
+  color: var(--white);
+  font-size: var(--fs-xlg);
+}
+.top-deal__card-img,
+.trending__card-img {
+  max-height: 70%;
+}

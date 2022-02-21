@@ -1,0 +1,32 @@
+.as-header {
+  margin-bottom: var(--sp-sm);
+}
+.search-bar {
+  position: relative;
+  border: 1px solid var(--gray-900);
+}
+.search-bar__input {
+  background-color: transparent;
+  font-size: medium;
+  padding: var(--sp-xsm);
+  width: 15rem;
+  border: none;
+}
+.search-bar__btn {
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2rem;
+  border: none;
+}
+.search-bar__input:focus {
+  outline-color: var(--primary);
+}
+.footer__address {
+  font-size: small;
+}
+.footer__social {
+  text-align: center;
+}
